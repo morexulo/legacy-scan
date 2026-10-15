@@ -1,0 +1,10 @@
+node_modules/
+*.log
+.DS_Store
+# No subir binarios de prueba de terceros
+*.exe
+*.dll
+*.ocx
+*.mdb
+*.accdb
+*.jar

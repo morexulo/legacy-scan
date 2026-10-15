@@ -1,0 +1,48 @@
+{
+  "name": "legacy-scan",
+  "version": "0.1.0",
+  "description": "Inventario de software heredado: detecta la tecnología de ejecutables y bases de datos (.NET, VB6, Delphi, FoxPro, Access...) y estima si su código es recuperable.",
+  "type": "module",
+  "bin": {
+    "legacy-scan": "bin/legacy-scan.js"
+  },
+  "main": "src/analyzer.js",
+  "exports": {
+    ".": "./src/analyzer.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/smoke.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "legacy",
+    "software-heredado",
+    "migration",
+    "dotnet",
+    "vb6",
+    "delphi",
+    "foxpro",
+    "access",
+    "pe",
+    "reverse-engineering",
+    "inventory"
+  ],
+  "author": "Jaime Salvador Moreno Villar <jmoreno@stellariscode.com> (https://www.stellariscode.com)",
+  "homepage": "https://www.stellariscode.com/analizar-exe",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morexulo/legacy-scan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/morexulo/legacy-scan/issues"
+  },
+  "license": "MIT"
+}
